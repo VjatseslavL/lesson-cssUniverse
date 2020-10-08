@@ -1,0 +1,30 @@
+:root {
+    --dark-color: rgba(46, 238, 245, 0.5);
+    --medium-color: #333;
+    --light-color: rgba(17, 95, 27, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--light-color);
+    padding: 2rem;
+}
+
+.Header {
+    height: 90vh;
+    background-image: linear-gradient(to bottom right, var(--light-color), var(--dark-color)), url("../img/pexels-martin-damboldt-814499.jpg");
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+}
+
+
+
